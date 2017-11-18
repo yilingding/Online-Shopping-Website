@@ -1,0 +1,154 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.mainInfo h1{
+	color: black;
+}
+.mainInfo ul{
+	list-style-type: none;
+	margin: 0; 
+    padding: 0;
+}
+/*horizontal navigation bar*/
+.mainInfo li
+{
+    float: left;
+}
+
+.mainInfo a
+{
+    text-align: center;
+    display: block;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+    padding: 20px;
+}
+
+.mainInfo a:hover
+{
+    background-color: #ff0;
+    color: black;  
+}
+
+.mainPage{
+	background-image: url('./images/login.jpeg');
+	background-repeat:no-repeat;
+ 	background-size:100%;
+}
+
+.mainInfo{
+	position:fixed;
+    top: 60%;
+    left: 60%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  
+}
+.login{
+	background-image: url('./images/login.gif');
+	margin-left: 50px;
+}
+
+.login h1{
+	color:white;
+}
+
+.login p{
+	color:white;
+}
+
+.recipt{
+	background-image: url('./images/back.gif');
+
+}
+.report{
+	background-image: url('./images/ba4.gif');
+	background-size:100% 100vh;
+ 	background-color: white;
+}
+#boxForEachProduct {
+	border:5px solid #ffc266; 
+	background-color:white; 
+	border-radius:5px; 
+	padding:15px;
+	text-align: center;
+	
+}
+#boxForEachProduct img{
+	width: 150px; 
+	height: 150px;
+}
+
+.onlineSTwo form{
+	width: 30%;
+	float: left;
+	padding: 1%;
+}
+
+.navForshoppingSite ul {
+   	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #ffc266;
+}
+
+.navForshoppingSite li#view{
+    float: left;
+    width: 82%;
+}
+
+.navForshoppingSite li#other {
+    float: right;
+}
+
+
+.navForshoppingSite li button {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1 {
+	color: #ff6600;
+}
+
+.navForshoppingSite #cartNav{
+	float: left;
+}
+
+.cart{
+	background-image: url('./images/pikaqiu.png');
+	background-repeat:no-repeat;
+ 	background-size:100%;
+	
+}
+.cartOne{
+	border:1px solid #333; 
+	background-color:#f1f1f1; 
+	border-radius:5px; padding:16px;
+	text-align: center;
+	text-align:center;
+}
+.online{
+	background-image: url('./images/shoppingCartbg.jpg');
+}
+.checkout{
+	background-image: url('./images/back1.gif');
+	background-repeat:no-repeat;
+ 	background-size:100% 100vh;
+ 	background-color: white;
+}

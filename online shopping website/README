@@ -1,0 +1,69 @@
+Project Name: Final project-shopping site 
+Author: Lu Ye and Yiling Ding
+Class: CS337
+
+Online Store.  Suppose you stock a small selection of items (such as dog and cat toys).  Customers can browse items and put them (one or more) in a virtual shopping cart, then purchase the contents of their cart.  Simulate payment and online receipt.  The administrator can see a report of whathas been ordered, and by whom*.  Five kinds of items is enough, and assume infinite inventory.  This requires customer accounts and one administrator accout.
+
+Before you open the site. You need to dump database first. The command line you probably used is below:
+/Applications/XAMPP/xamppfiles/bin/mysql -u root < mydatabase.sql
+/Applications/XAMPP/xamppfiles/bin/mysql -u root
+
+
+Intro of two types users: Customer and Administrator
+Pre-introduction:
+	1. Users can register account to be a customer
+	2. Administrator is already in the system. 
+	3. Administrator is designed for look at adminReport
+	4. Username for admin. is "administrator" and Password for admin. is "password".
+
+Functionality for Customer:
+	1. Customers can log into online store and view the stock.
+	2. Customers is able to view and update the shopping cart.
+
+To Do and Bugs:
+Summary:
+	1. proper style 
+		especially for adminReport add same space or other style, comfortable to read 
+	
+	2. Added more information for providing a good user experiences
+
+sloved	3. making the product smaller so that 3 in one line?！ maybe better, not sure?
+
+	4. Please notice that no internal styling is allowed (already solved for previous)
+
+	5. According to the design goal 3, the user create password-protected accounts.  A logged-in user somehow has extra privileges, compared to a non-logged-in use. So maybe create a guest without logging in that only one time check out, can¨t retain his cart item when next time access 
+	6. Double check adminReport.php. Why do we have two copies???
+
+
+
+
+
+
+
+
+
+
+
+solved	1. Use Ajax ！ solve in adminReport and myAjax.php
+sloved	2. salted hash password
+	3. proper style
+
+
+
+sloved	4. clear the cart for current customer after he or she placed the current order ！！！solved
+solved	5. Added more product ！！！！！！(now 9 product)！ according to handout 5 enough 
+	6. Added more information for providing a good user experiences
+
+	8. making the product smaller so that 3 in one line?
+sloved	9. after checking out could go back to the shopping page or log out！！！ solved 
+solved	10. if shopping cart is empty then show that shopping cart empty information ！！ suggestion (solved)
+solved	11. for the grading. no internal styling (solved)
+	12 According to the design goal 3, the user create password-protected accounts.  A logged-in user somehow has extra privileges, compared to a non-logged-in use. So maybe create a guest without logging in that only one time check out, can¨t retain his cart item when next time access 
+solved	13 something wrong with the administrator report ！ placed many orders, but only see one, don¨t increase
+solved	14. add more details to the Administrator Report ！ need to discuss 
+solved	15 price, registered data??！for the administrator report
+
+
+updated 4.24.2017
+Thank you for your time. 
+Just do IT :)

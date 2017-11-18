@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Log In</title>
+</head>
+<body class="login">
+	<?php 
+		session_start();
+	?>
+	<h1>Log In</h1>
+	<form action="./controller.php" method="post">
+		<p>Username: </p><input id= "name" name="name"><br>
+		<p>Password: </p><input type="password" id="pw" name="pw"><br>
+		<br>
+		<br>
+		<button class="menu" name="action" value="login">Take me to the Online Store!</button>
+		<button class="menu" name="action" value="back">Go Back to Main Page</button>
+		<button class="menu" name="action" value="non"> Non-logged-in user access</button>
+	</form>
+
+	<div class="warning">
+		<?php
+		    if(isset($_SESSION["error"])){
+            	echo '<p>'.$_SESSION["error"].'</p>';
+        	}else{
+        		echo $_SESSION["error"] = "";
+        	}
+		?>
+	</div>
+	
+</body>
+</html>
